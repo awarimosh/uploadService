@@ -19,8 +19,10 @@ install dependencies and build
 HTTP server listening on port `8000`.
 
 ## Routes
+```
 GET ("/") : All image
 POST ("/image/") : Upload image or zip file
 GET ("/image/:id") : Get image by ID
 GET ("/image/thumb/:id") : Get Image Thumb by ID
 GET ("/image/thumb/:id/:type") : Get Image Thumb by ID and type
+```
