@@ -1,0 +1,14 @@
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\UploadServiceAp.exe.config
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\UploadServiceAp.exe
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\UploadServiceAp.pdb
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\Nancy.dll
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\Nancy.Hosting.Self.dll
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\Nancy.xml
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\Nancy.Hosting.Self.xml
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\obj\Debug\UploadServiceAp.csprojAssemblyReference.cache
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\obj\Debug\UploadServiceAp.csproj.CoreCompileInputs.cache
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\obj\Debug\UploadServiceAp.csproj.CopyComplete
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\obj\Debug\UploadServiceAp.exe
+C:\Users\awari\Documents\Projects\micro-web-challenge\UploadServiceAp\UploadServiceAp\obj\Debug\UploadServiceAp.pdb
