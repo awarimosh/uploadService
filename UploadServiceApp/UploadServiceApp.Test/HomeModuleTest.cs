@@ -10,7 +10,7 @@ using Xunit;
 
 namespace UploadServiceApp.Test
 {
-    public class HomeModuleTests
+    public class HomeModuleTest
     {
         [Fact]
         public void Should_answer_Not_Empty_on_root_path()

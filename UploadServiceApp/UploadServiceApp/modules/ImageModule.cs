@@ -12,6 +12,12 @@ namespace UploadServiceApp.Modules
     {
         public ImageModule()
         {
+            /**
+             * @api {post} /image Send Image For Upload
+             * @apiName POstImage
+             *
+             * @apiSuccess {String} permanent url to image.
+             */
             Post("/image", async (args, ct) =>
             {
                 var file = this.Request.Files.FirstOrDefault();
@@ -74,6 +80,16 @@ namespace UploadServiceApp.Modules
                 return HttpStatusCode.NotFound;
             });
 
+
+            /**
+             * @api {get} /image/:id Request Image
+             * @apiName GetUser
+             * @apiGroup User
+             *
+             * @apiParam {Number} id Image unique ID.
+             *
+             * @apiSuccess {File} image File.
+             */
             Get("/image/{Id}", async (args, ct) =>
             {
                 var filename = Path.Combine(Utils.getRootFolder(), "images", args.Id + ".jpeg");
@@ -91,6 +107,15 @@ namespace UploadServiceApp.Modules
                 }
             });
 
+            /**
+             * @api {get} /image/thumb/:id Request Image thumbnail
+             * @apiName GetUser
+             * @apiGroup User
+             *
+             * @apiParam {Number} id Image unique ID.
+             *
+             * @apiSuccess {ImageFile image File.
+             */
             Get("/image/thumb/{Id}", async (args, ct) =>
             {
                 String prefix = "32_";
@@ -101,6 +126,16 @@ namespace UploadServiceApp.Modules
                 return Response.FromStream(stream, "image/jpg");
             });
 
+
+            /**
+             * @api {get} /image/thumb/:id/:type Request Image thumbnail
+             * @apiName GetUser
+             * @apiGroup User
+             *
+             * @apiParam {Number} id Image unique ID.
+             *
+             * @apiSuccess {ImageFile image File.
+             */
             Get("/image/thumb/{Id}/{type}", async (args, ct) =>
             {
                 String prefix = "32_";
